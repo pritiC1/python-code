@@ -1,9 +1,5 @@
-num=int(input("enter the number:"))
-str=str(num)
-if str==str[::-1]:
-    print("number is palindrome")
+s=input()
+if s==s[::-1]:
+    print(f"palindrome:{s}")
 else:
-    print("number is not palindrome")  
-
-    
-         
+    print("not palindrome")
